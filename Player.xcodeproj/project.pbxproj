@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE1A6F8C2CB1A77D00043C65 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A6F8B2CB1A77D00043C65 /* ViewModel.swift */; };
+		EE1A6F8F2CB1AD7200043C65 /* ImportFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A6F8E2CB1AD7200043C65 /* ImportFileManager.swift */; };
+		EE1A6F912CB6801700043C65 /* ButtonMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A6F902CB6801700043C65 /* ButtonMusicView.swift */; };
+		EE1A6F932CB6B20500043C65 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1A6F922CB6B20500043C65 /* Extension+View.swift */; };
 		EE6CA1272C9B51490076BAC6 /* PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA1262C9B51490076BAC6 /* PlayerApp.swift */; };
-		EE6CA1292C9B51490076BAC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA1282C9B51490076BAC6 /* ContentView.swift */; };
+		EE6CA1292C9B51490076BAC6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA1282C9B51490076BAC6 /* MainView.swift */; };
 		EE6CA12B2C9B514B0076BAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6CA12A2C9B514B0076BAC6 /* Assets.xcassets */; };
 		EE6CA12E2C9B514B0076BAC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6CA12D2C9B514B0076BAC6 /* Preview Assets.xcassets */; };
+		EE6CA13C2C9B56F80076BAC6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA13B2C9B56F80076BAC6 /* BackgroundView.swift */; };
+		EE6CA13E2C9B58BC0076BAC6 /* Extension+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA13D2C9B58BC0076BAC6 /* Extension+Text.swift */; };
+		EE6CA1402C9B5B660076BAC6 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA13F2C9B5B660076BAC6 /* SongModel.swift */; };
+		EE6CA1422C9B5C910076BAC6 /* CellSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CA1412C9B5C910076BAC6 /* CellSongView.swift */; };
+		EEF68D1F2CD52155000CADD0 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EEF68D1E2CD52155000CADD0 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE1A6F8B2CB1A77D00043C65 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EE1A6F8E2CB1AD7200043C65 /* ImportFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportFileManager.swift; sourceTree = "<group>"; };
+		EE1A6F902CB6801700043C65 /* ButtonMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMusicView.swift; sourceTree = "<group>"; };
+		EE1A6F922CB6B20500043C65 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 		EE6CA1232C9B51490076BAC6 /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6CA1262C9B51490076BAC6 /* PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerApp.swift; sourceTree = "<group>"; };
-		EE6CA1282C9B51490076BAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE6CA1282C9B51490076BAC6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EE6CA12A2C9B514B0076BAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6CA12D2C9B514B0076BAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE6CA13B2C9B56F80076BAC6 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EE6CA13D2C9B58BC0076BAC6 /* Extension+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Text.swift"; sourceTree = "<group>"; };
+		EE6CA13F2C9B5B660076BAC6 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		EE6CA1412C9B5C910076BAC6 /* CellSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSongView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +43,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF68D1F2CD52155000CADD0 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE1A6F8D2CB1AD5100043C65 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A6F8E2CB1AD7200043C65 /* ImportFileManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		EE6CA11A2C9B51490076BAC6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				EE6CA1262C9B51490076BAC6 /* PlayerApp.swift */,
-				EE6CA1282C9B51490076BAC6 /* ContentView.swift */,
+				EE6CA1342C9B51870076BAC6 /* Views */,
+				EE6CA1352C9B519D0076BAC6 /* ViewModel */,
+				EE6CA1362C9B51A70076BAC6 /* Model */,
+				EE6CA1372C9B51B10076BAC6 /* Extension */,
+				EE1A6F8D2CB1AD5100043C65 /* Helper */,
 				EE6CA12A2C9B514B0076BAC6 /* Assets.xcassets */,
 				EE6CA12C2C9B514B0076BAC6 /* Preview Content */,
 			);
@@ -65,6 +95,66 @@
 				EE6CA12D2C9B514B0076BAC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE6CA1342C9B51870076BAC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA1382C9B51DD0076BAC6 /* Main Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE6CA1352C9B519D0076BAC6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE1A6F8B2CB1A77D00043C65 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE6CA1362C9B51A70076BAC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA13F2C9B5B660076BAC6 /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE6CA1372C9B51B10076BAC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA13D2C9B58BC0076BAC6 /* Extension+Text.swift */,
+				EE1A6F922CB6B20500043C65 /* Extension+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE6CA1382C9B51DD0076BAC6 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA1392C9B520E0076BAC6 /* View */,
+				EE6CA13A2C9B56D10076BAC6 /* SubView */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+		EE6CA1392C9B520E0076BAC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA1282C9B51490076BAC6 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE6CA13A2C9B56D10076BAC6 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				EE6CA13B2C9B56F80076BAC6 /* BackgroundView.swift */,
+				EE6CA1412C9B5C910076BAC6 /* CellSongView.swift */,
+				EE1A6F902CB6801700043C65 /* ButtonMusicView.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,9 @@
 			dependencies = (
 			);
 			name = Player;
+			packageProductDependencies = (
+				EEF68D1E2CD52155000CADD0 /* RealmSwift */,
+			);
 			productName = Player;
 			productReference = EE6CA1232C9B51490076BAC6 /* Player.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,9 @@
 				Base,
 			);
 			mainGroup = EE6CA11A2C9B51490076BAC6;
+			packageReferences = (
+				EEF68D1D2CD52155000CADD0 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = EE6CA1242C9B51490076BAC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6CA1292C9B51490076BAC6 /* ContentView.swift in Sources */,
+				EE1A6F8F2CB1AD7200043C65 /* ImportFileManager.swift in Sources */,
+				EE6CA13C2C9B56F80076BAC6 /* BackgroundView.swift in Sources */,
+				EE1A6F932CB6B20500043C65 /* Extension+View.swift in Sources */,
+				EE6CA1422C9B5C910076BAC6 /* CellSongView.swift in Sources */,
+				EE6CA1402C9B5B660076BAC6 /* SongModel.swift in Sources */,
+				EE6CA1292C9B51490076BAC6 /* MainView.swift in Sources */,
+				EE1A6F912CB6801700043C65 /* ButtonMusicView.swift in Sources */,
 				EE6CA1272C9B51490076BAC6 /* PlayerApp.swift in Sources */,
+				EE6CA13E2C9B58BC0076BAC6 /* Extension+Text.swift in Sources */,
+				EE1A6F8C2CB1A77D00043C65 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +382,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +391,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.MurtMagomedov.Player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +415,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +424,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.MurtMagomedov.Player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEF68D1D2CD52155000CADD0 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEF68D1E2CD52155000CADD0 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEF68D1D2CD52155000CADD0 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE6CA11B2C9B51490076BAC6 /* Project object */;
 }
